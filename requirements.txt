@@ -1,0 +1,6 @@
+git+https://github.com/HoangHao1009/autoanalyzer.git
+streamlit
+plotly==5.18.0
+scikit-learn
+xgboost
+statsmodels

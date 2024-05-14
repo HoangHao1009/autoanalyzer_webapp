@@ -49,7 +49,7 @@ st.set_page_config(
 
 with st.sidebar:
     st.subheader('AUTHOR')
-    image_url = "https://drive.google.com/uc?id=1f8jbbkrSyn4OfglO0PS9uv8DbVqEQQfv"
+    image_url = "https://drive.google.com/uc?id=18dEez78lGXH5PeG_5XORfPPu_wjrNGDN"
     response = requests.get(image_url)
     img_data = BytesIO(response.content)
     st.image(img_data, width = 150)
